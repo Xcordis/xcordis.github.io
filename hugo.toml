@@ -1,75 +1,67 @@
-baseURL = 'https://xcordis.github.io/'
-languageCode = 'zh-cn'
-title = 'Xcordis 的技术笔记'
-theme = 'hugo-theme-stack'
+baseURL = "https://xcordis.github.io/"
+languageCode = "zh-cn"
+title = "Xcordis 的技术笔记"
+theme = "hugo-theme-stack"
 hasCJKLanguage = true
-
-# 分页设置：每页显示多少篇文章
 paginate = 10
 
 [params]
-    # 网站基本描述
-    description = "专注于 Django、Python 和自动化运维的技术分享"
-    
-    # 侧边栏配置
-    [params.sidebar]
-        avatar = "/img/avatar.png"
-        background = "/img/sidebar-background.png"
-        emoji = "🚀"
-        subtitle = "全栈开发 / 运维自动化"
-        
-        # 侧边栏显示的组件
-        widgets = [
-            { type = "search" },
-            { type = "archives" },
-            { type = "categories" },
-            { type = "tagcloud" }
-        ]
+description = "专注于 Django、Python 和自动化运维的技术分享"
 
-    # 文章详情页配置
-    [params.article]
-        math = false
-        toc = true       # 开启右侧目录
-        readingTime = true # 显示预计阅读时间
+# 侧边栏配置：取消了所有前面的空格缩进，防止解析错误
+[params.sidebar]
+avatar = "img/avatar.png"
+background = "img/sidebar-background.png"
+emoji = "🚀"
+subtitle = "全栈开发 / 运维自动化"
+widgets = [
+    { type = "search" },
+    { type = "archives" },
+    { type = "categories" },
+    { type = "tagcloud" }
+]
 
-    # 评论插件（如果想开，可以之后配置 Waline 或 utterances）
-    [params.comments]
-        enabled = false
+[params.article]
+math = false
+toc = true
+readingTime = true
 
-    # 底部页脚
-    [params.footer]
-        since = 2026
-        customText = "写代码也是一种艺术"
+[params.comments]
+enabled = false
+
+[params.footer]
+since = 2026
+customText = "写代码也是一种艺术"
 
 # 导航菜单配置
 [[menu.main]]
-    identifier = "home"
-    name = "首页"
-    url = "/"
-    weight = 1
-    [menu.main.params]
-        icon = "home"
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 1
+[menu.main.params]
+icon = "home"
 
 [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 2
-    [menu.main.params]
-        icon = "archives"
+identifier = "archives"
+name = "归档"
+url = "/archives/"
+weight = 2
+[menu.main.params]
+icon = "archives"
 
 [[menu.main]]
-    identifier = "search"
-    name = "搜索"
-    url = "/search/"
-    weight = 3
-    [menu.main.params]
-        icon = "search"
+identifier = "search"
+name = "搜索"
+url = "/search/"
+weight = 3
+[menu.main.params]
+icon = "search"
 
-# 社交链接（可以根据需要增减）
+# 社交链接
 [[params.social]]
-    identifier = "github"
-    name = "GitHub"
-    url = "https://github.com/Xcordis"
-    [params.social.params]
-        icon = "brand-github"
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/Xcordis"
+[params.social.params]
+icon = "brand-github"
