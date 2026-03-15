@@ -13,8 +13,8 @@ paginate = 10
     
     # 侧边栏配置
     [params.sidebar]
-        avatar = "https://cdn.jsdelivr.net/gh/Xcordis/xcordis.github.io@main/static/img/avatar.png"
-        background = "https://cdn.jsdelivr.net/gh/Xcordis/xcordis.github.io@main/static/img/sidebar-background.png"
+        avatar = "/img/avatar.png"
+        background = "/img/sidebar-background.png"
         emoji = "🚀"
         subtitle = "全栈开发 / 运维自动化"
         
