@@ -1,3 +1,4 @@
 baseURL = 'https://xcordis.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-cn'
+title = 'Xcordis 的技术笔记'     # 这里改名，比如“某某的博客”
+hasCJKLanguage = true           # 强烈建议加上这一行！
