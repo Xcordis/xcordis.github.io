@@ -10,8 +10,8 @@ description = "专注于 Django、Python 和自动化运维的技术分享"
 
 # 侧边栏配置：取消了所有前面的空格缩进，防止解析错误
 [params.sidebar]
-avatar = "/img/avatar.png"
-background = "/img/sidebar-background.png"
+avatar = "img/avatar.png"
+background = "img/sidebar-background.png"
 emoji = "🚀"
 subtitle = "全栈开发 / 运维自动化"
 widgets = [
